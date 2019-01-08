@@ -1,0 +1,11 @@
+.text-justify{
+    text-align: justify;
+}
+
+.story-padding{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.story-btn  {padding: 0.33rem 1rem;outline:0;color:#fff;text-transform: uppercase;font-size: 13px;background: #000;border:1px solid #000;}
+.story-btn:hover {cursor:pointer;background: #fff;color:#000;transition: all .5s ease}
