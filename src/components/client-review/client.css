@@ -1,3 +1,9 @@
 .client-review-wrapper {padding-top: 2.5rem;}
 .slick-dots {position: static;}
-.slick-dots li button {font-size: 14px!important;}
+.display {display: flex!important;padding: 5px 10px;border: 2px solid #ddd;margin-right: 0px!important;margin-left: 8px!important;width: 96%!important;}
+.text-style {text-align: left;font-size: 11px;margin: 4px auto;padding-left: 31px;border-left: 1px solid #ddd;}
+.icon-star-color {color: #11c711}
+.client-circle-img {border-radius: 50%;width: 80px;height: 80px;border: 3px solid #aaaaaa73;margin: 0 auto;}
+.video-wrapper {background-image: url(../../video.jpg); background-size: cover; padding: 4% 0;}
+.video-icon {font-size: 40px;margin-top: 25px;color: white;}
+.video-icon:hover {color: #11c711; transition: all .5s ease;cursor: pointer;}
