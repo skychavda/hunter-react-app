@@ -16,14 +16,11 @@ class About extends React.Component{
                         <div className="col-md-4 col-12">
                             <div className="embed-responsive embed-responsive-4by3" style={{backgroundColor: "#000000"}}>
                                 <div className="embed-responsive-item">
-                                    <video autoplay name="media" loop autoPlay style={{width:"100%", height:"100%"}}>
+                                    <video autoplay name="media" muted loop autoPlay style={{width:"100%", height:"100%"}}>
                                         <source src={require("../../about-video.mp4")} type="video/mp4"/>
                                     </video>
                                 </div>
                             </div>
-                            {/* <div className="embed-responsive embed-responsive-4by3">
-                                <iframe className="embed-responsive-item" src={require("../../about-video.mp4")} loop="true" autoplay="1"></iframe>
-                            </div> */}
                         </div>
                     </div>
                 </div>

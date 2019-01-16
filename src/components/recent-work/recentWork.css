@@ -9,7 +9,7 @@
 .padding-bottom {padding-bottom: 3%;}
 .work-with-us-wrapper {background-image: url(../../counter.jpg); background-size: cover; padding: 3% 0;}
 .fedIn{
-    animation: fadein 5s;
+    animation: fadein 2s;
 }
 @keyframes fadein {
     0% { opacity: 0; }

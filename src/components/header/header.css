@@ -46,3 +46,17 @@ ul li{
 
 .header-btn {padding: 0.33rem 1rem;outline:0;border:1px solid white;background: transparent;color:#fff;text-transform: uppercase;font-size: 13px;margin:0 0.43rem;}
 .header-btn:hover {cursor: pointer; background:#11c711;border:1px solid #11c711;transition:all .5s ease;}
+
+.navbar{
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+
+.nav-link{
+    color:#ffffff9e!important;
+}
+
+.header-active .nav-link{
+    color:#fff!important;
+    border-bottom: 1px solid #11c711;
+}
