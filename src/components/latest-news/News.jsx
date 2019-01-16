@@ -17,7 +17,7 @@ class News extends React.Component{
         const newsArr=[];
         this.state.news.forEach((news)=>{
             newsArr.push(
-                <NewsCategory news={news}/>
+                <NewsCategory news={news} key={news.title}/>
             )
         });
         return(

@@ -4,7 +4,7 @@ class Navigation extends React.Component{
     render(){
         return(
             <nav className="navbar navigation-wrapper master-padding" style={{color:"#fff"}}>
-                <a className="navbar-brand">Hunter</a>
+                <a className="navbar-brand"><h2 style={{marginBottom: 0, color:"#117c1e"}}>H<span style={{fontSize:"20px",color:"#fff",fontWeight:100}}>hunter</span></h2></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

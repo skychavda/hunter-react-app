@@ -8,9 +8,11 @@ class Person extends React.Component{
                 <img className="circle-img" src={person.photo}/>
                 <h6 className="person-name">{person.name}</h6>
                 <p className="person-designation">{person.designation}</p>
-                <i class="fab fa-facebook-f icon-border"></i>
-                <i className="fab fa-twitter icon-border"></i>
-                <i class="fab fa-pinterest-p icon-border"></i>
+                <div className="flex" style={{justifyContent:"center"}}>
+                    <div className="icon-wrapper"><i className="fab fa-facebook-f icon-border"></i></div>
+                    <div className="icon-wrapper"><i className="fab fa-twitter icon-border"></i></div>
+                    <div className="icon-wrapper"><i className="fab fa-pinterest-p icon-border"></i></div>
+                </div>
             </div>
         );
     }

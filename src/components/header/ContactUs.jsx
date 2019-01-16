@@ -11,16 +11,16 @@ class Contact extends React.Component{
                     <div className="text-right" style={{color:"#fff"}}>
                         <ul>
                             <li>
-                                <a><i class="fab fa-facebook-f"></i></a>
+                                <a><i className="fab fa-facebook-f"></i></a>
                             </li>
                             <li>
                                 <a><i className="fab fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a><i class="fab fa-pinterest-p"></i></a>
+                                <a><i className="fab fa-pinterest-p"></i></a>
                             </li>
                             <li>
-                                <a><i class="fab fa-linkedin-in"></i></a>
+                                <a><i className="fab fa-linkedin-in"></i></a>
                             </li>
                         </ul>
                     </div>

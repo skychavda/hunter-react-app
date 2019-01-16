@@ -1,0 +1,9 @@
+.contactUs-wrapper {padding-bottom: 2.5rem;}
+.contact-form {padding-right: 30px!important;padding-left: 0px!important;}
+.input-col {padding-right: 0px!important;padding-left: 0px!important;}
+.form-input {width: 95%;padding: 0.13rem 0.5rem;font-size: 13px!important;}
+.form-textarea {width: 98%;padding: 0.13rem 0.5rem;font-size: 13px!important;}
+.form-button {padding: 0.43rem 1rem;background-color: #11c71e; border:1px solid #11c71e;outline: none;text-transform: capitalize;font-size: 13px;color: white;cursor: pointer;}
+.form-button:focus {outline: none;}
+.border-bottom {font-size: 13px;margin-bottom: 0;padding-bottom: 8px;}
+.icon-style {padding-right: 12px;color: #11c71e;}
