@@ -7,3 +7,10 @@
 .form-button:focus {outline: none;}
 .border-bottom {font-size: 13px;margin-bottom: 0;padding-bottom: 8px;}
 .icon-style {padding-right: 12px;color: #11c71e;}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .contact-form{
+        padding-right: 0!important;
+        padding-left: 0!important; 
+    }
+}

@@ -4,7 +4,7 @@ import './about.css';
 class About extends React.Component{
     render(){
         return(
-            <div className="story-wrapper">
+            <div className="story-wrapper" id="about">
                 <div className="master-padding story-padding">
                     <div className="row">
                         <div className="col-md-8 col-12 our-story">

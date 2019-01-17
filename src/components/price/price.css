@@ -4,6 +4,9 @@
         max-width: 23%!important;
     }
 }
+@media (min-width: 481px) and (max-width: 768px) {  
+    
+}
 .price-category {
     background-color: #3c3a3a;margin: 0 auto;padding:10px 0;padding-right: 0!important;padding-left: 0!important;
 }
@@ -22,7 +25,6 @@
 .quote-wrapper {background-image: url("../../quote.jpg"); background-size: cover; padding:3% 0;}
 .margin-top {margin-top:-6px;}
 .quote-button-align {text-align: right};
-
 
 
 @media (max-width:600px){

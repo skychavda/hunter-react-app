@@ -5,7 +5,7 @@ import Gallery from './Gallery';
 class RecentWork extends React.Component{
     render(){
         return(
-            <div className="recent-work-wrapper">
+            <div className="recent-work-wrapper" id="testimonial">
                 <div className="master-padding text-center padding-bottom">
                     <h3>Recent Work</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

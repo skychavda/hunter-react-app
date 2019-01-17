@@ -29,7 +29,7 @@ class Services extends React.Component{
             );
         });
         return(
-            <div className="services-wrapper">
+            <div className="services-wrapper" id="service">
                 <div className="master-padding text-center services">
                     <h5 style={{textTransform: "uppercase"}}>what we provide</h5>
                     <p style={{textTransform: "capitalize"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

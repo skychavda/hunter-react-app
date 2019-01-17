@@ -21,7 +21,7 @@ class Team extends React.Component{
             );
         });
         return(
-            <div className="team-wrapper">
+            <div className="team-wrapper" id="team">
                 <div className="master-padding text-center">
                     <h3>Team member</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

@@ -4,7 +4,7 @@ import './footer.css';
 class Footer extends React.Component{
     render(){
         return(
-            <footer className="footer-wrapper">
+            <footer className="footer-wrapper" id="footer">
                 <div className="master-padding">
                     <div className="row footer-row">
                         <div className="col-md-4 footer-div-center text-left flex">
@@ -20,6 +20,9 @@ class Footer extends React.Component{
                             <div className="icon-wrapper"><i className="fab fa-linkedin-in icon-border"></i></div>
                         </div>
                     </div>
+                </div>
+                <div>
+                    <button className="scroll"><a href="#home" className="floating-icon-a"><i className="fas fa-angle-double-up" style={{transform: "rotate(-45deg)"}}></i></a></button>
                 </div>
             </footer>
         );

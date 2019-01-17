@@ -21,7 +21,7 @@ class News extends React.Component{
             )
         });
         return(
-            <div className="latest-news-wrapper">
+            <div className="latest-news-wrapper" id="blog">
                 <div className="master-padding">
                     <h3 style={{textAlign: "center"}}>Latest news</h3>
                     <p style={{textAlign: "center"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

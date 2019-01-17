@@ -77,7 +77,7 @@ class Price extends React.Component{
                     <div className="master-padding text-center">
                         <div className="row">
                             <div className="col-md-6">
-                                <div className="float-left">
+                                <div className="float-left quote-text">
                                     <h6 style={{textTransform: "uppercase", color:"#fff", textAlign: "left"}}>provide smart logistics solution acrros the world</h6>
                                 </div>
                             </div>

@@ -7,7 +7,7 @@ import Content from './Content';
 class Header extends React.Component{
     render(){
         return(
-            <header className="header-img">
+            <header className="header-img" id="home">
                 <Contact/>
                 <Navigation/>
                 <Content />

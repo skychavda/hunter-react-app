@@ -4,7 +4,7 @@ import './contact.css';
 class Contact extends React.Component{
     render(){
         return(
-            <div className="contactUs-wrapper">
+            <div className="contactUs-wrapper" id="contact">
                 <div className="master-padding text-center">
                     <h3>Contact Us</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

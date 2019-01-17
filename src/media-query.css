@@ -1,18 +1,60 @@
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1025px) and (max-width: 2560px) {
     .master-padding{
         padding-left: 20%!important;
         padding-right: 20%!important;
     }
+    .scroll{
+        bottom: 68px!important;
+    }
 }
+
+@media (max-width:1184px){
+    .scroll{
+        bottom: 89px!important;
+        left: 93%!important
+    }
+}
+
+@media (max-width:796px){
+    .scroll{
+        left: 93%!important
+    }
+}
+
+@media (max-width:767px){
+    .scroll{
+        bottom: 143px!important
+    }
+}
+
+/* @media (max-width:767px){
+    .scroll{
+        bottom: 143px!important
+    }
+} */
 
 @media (min-width: 769px) and (max-width: 1024px) {
     .master-padding{
-        padding-left: 20%!important;
-        padding-right: 20%!important;
+        padding-left: 12%!important;
+        padding-right: 12%!important;
+    }
+    .scroll{
+        bottom: 78px!important;
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {  
+    .quote-text{
+        float: none!important;
+        text-align: center;
+    }
+    .quote-button-align{
+        text-align: center!important;
+        margin-top: 10px;
+    }
+    .scroll{
+        left: 90%!important;
+    }
     .master-padding{
         padding-left: 10%!important;
         padding-right: 10%!important;
@@ -33,6 +75,16 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .quote-text{
+        text-align: center;
+    }
+    .quote-button-align{
+        text-align: center!important;
+        margin-top: 10px;
+    }
+    .scroll{
+        left:85%!important;
+    }
     .master-padding{
         padding-left: 10%!important;
         padding-right: 10%!important;

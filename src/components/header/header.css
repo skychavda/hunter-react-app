@@ -42,6 +42,17 @@
     outline: none;
 }
 
+.header-a{
+    padding: 13px 0;
+    text-decoration: none;
+    color:#ffffff9e;
+}
+
+.header-a:hover{
+    color:white;
+    text-decoration: none;
+}
+
 ul{
     text-decoration: none;
 }
