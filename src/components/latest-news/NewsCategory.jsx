@@ -4,7 +4,7 @@ class NewsCategory extends React.Component{
     render(){
         const news = this.props.news;
         return(
-            <div className="col-md-4">
+            <div className="col-md-4 news-margin-botttom">
                 <div className="card">
                     <img className="card-img-top" src={news.image} />
                     <div className="card-body">

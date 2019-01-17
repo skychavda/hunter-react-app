@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './media-query.css';
 import Header from './components/header/Header';
 import About from './components/about/About';
 import Services from './components/services/Services';
 import Team from './components/team/Team';
-import Counter from './components/counter/Counter';
+import CounterClient from './components/counter/Counter';
 import ClientReview from './components/client-review/ClientReview';
 import RecentWork from './components/recent-work/RecentWork';
 import News from './components/latest-news/News';
@@ -22,7 +23,7 @@ ReactDOM.render(
     <About/>
     <Services/>
     <Team />
-    <Counter />
+    <CounterClient />
     <RecentWork />
     <ClientReview />
     <News />

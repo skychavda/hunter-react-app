@@ -5,8 +5,8 @@
 .icon-border {cursor: pointer;
     margin-left: 4px; 
     display: flex;
-    width: 1.5vw;
-    height: 1.5vw;
+    width: 20.5px;
+    height: 20.5px;
     color: #a7a7a7;
     font-size: 11px;overflow: hidden;border: 1px solid #a7a7a7;}
     .icon-border::before {

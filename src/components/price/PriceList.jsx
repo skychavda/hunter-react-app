@@ -4,7 +4,7 @@ class PriceList extends React.Component{
     render(){
         const list = this.props.pricelist;
         return(
-            <div className="col-md-3 price-category col-12">
+            <div className="col-md-3 price-category col-12 price-margin-bottom">
                 <h4 className="price-title">{list.title}</h4>
                 <h6 className="price-amount">{list.price}</h6>
                 <div className="detail">

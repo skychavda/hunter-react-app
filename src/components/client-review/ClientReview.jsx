@@ -11,7 +11,7 @@ class ClientReview extends React.Component{
             slidesToShow: 2,
             slidesToScroll: 2,
             arrows: false,
-            // autoplay: true
+            autoplay: true,
             responsive: [
                 {
                   breakpoint: 1024,

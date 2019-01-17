@@ -7,6 +7,7 @@
 .price-category {
     background-color: #3c3a3a;margin: 0 auto;padding:10px 0;padding-right: 0!important;padding-left: 0!important;
 }
+.price-margin-bottom {margin-bottom: 20px;}
 .price-amount {background-color: #58f579;padding: 6px 0;font-size: 14px;color:white;margin-bottom: 0;}
 .price-title {color: #11c711;text-transform: uppercase; font-size: 18px;padding:10px 0;margin-bottom: 0;}
 .detail {text-align:left;padding:20px 15px;color:white;font-size: 13px;}
@@ -21,6 +22,7 @@
 .quote-wrapper {background-image: url("../../quote.jpg"); background-size: cover; padding:3% 0;}
 .margin-top {margin-top:-6px;}
 .quote-button-align {text-align: right};
+
 
 
 @media (max-width:600px){
