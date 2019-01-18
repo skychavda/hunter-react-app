@@ -7,6 +7,15 @@
     border-color: #11c711!important;
 }
 
+.header-icon{
+    text-decoration: none;
+    color:rgba(255,255,255,0.62)!important;
+}
+
+.header-icon:hover{
+    color: #ffffff!important;
+}
+
 .header-img{
     /* content: "";
     top:0;
@@ -17,7 +26,7 @@
     background-image: url(../../header.jpg);
     background-size: cover;
     /* filter: brightness(50%); */
-    box-shadow: inset 8px 8px 200rem black;
+    box-shadow: inset 8px 8px 100rem black;
 }
 
 .text-left{
@@ -29,7 +38,7 @@
 }
 
 .navigation-wrapper{
-    background-color: #525659b3;
+    background-color:rgba(82, 86, 89, 0.7);
     color:#fff;
 }
 
@@ -45,7 +54,7 @@
 .header-a{
     padding: 13px 0;
     text-decoration: none;
-    color:#ffffff9e;
+    color:rgba(255,255,255,0.62);
 }
 
 .header-a:hover{

@@ -1,5 +1,7 @@
 import React from 'react';
 import './about.css';
+// import video from '../../about-video.mp4';
+// import video from 'https://www.youtube.com/watch?v=8Ic2L7ZyFC8';
 
 class About extends React.Component{
     render(){
@@ -16,9 +18,15 @@ class About extends React.Component{
                         <div className="col-md-4 col-12 our-video">
                             <div className="embed-responsive embed-responsive-4by3" style={{backgroundColor: "#000000"}}>
                                 <div className="embed-responsive-item">
-                                    <video autoplay name="media" muted loop autoPlay style={{width:"100%", height:"100%"}}>
-                                        <source src={require("../../about-video.mp4")} type="video/mp4"/>
+                                    <video name="media" autoPlay controls style={{width:"100%", height:"100%"}} muted loop>
+                                        <source src="http://techslides.com/demos/sample-videos/small.ogv" type='video/ogg; codecs="theora"'/> 
+                                        <source src="http://techslides.com/demos/sample-videos/small.mp4" type='video/mp4; codecs="avc1.42E01E"'/>
+                                        your browser not support video
                                     </video>
+                                    {/* <iframe className="player" style={{width:"100%", height:"100%"}} src="https://www.youtube.com/embed/8Ic2L7ZyFC8?autoplay=1" frameborder="0"/> */}
+                                    {/* <video width="400" autoPlay controls style={{width:"100%", height:"100%"}}>
+                                        <source src={video} type="video/mp4" />
+                                    </video> */}
                                 </div>
                             </div>
                         </div>

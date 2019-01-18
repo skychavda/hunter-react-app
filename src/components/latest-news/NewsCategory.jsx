@@ -6,7 +6,7 @@ class NewsCategory extends React.Component{
         return(
             <div className="col-md-4 news-margin-botttom">
                 <div className="card">
-                    <img className="card-img-top card-height" src={news.image}/>
+                    <img className="card-img-top card-height" src={news.image} alt="news"/>
                     <div className="card-body">
                         <h5 className="card-title">{news.title}</h5>
                         <p className="card-text">{news.disc}</p>
@@ -14,7 +14,7 @@ class NewsCategory extends React.Component{
                         <i className="far fa-thumbs-up" style={{paddingLeft: "10px"}}>700</i>
                     </div>
                     <div>
-                        <button className="float-right read-more-btn">Read More<i className="fas fa-arrow-right"></i></button>
+                        <button className="float-right read-more-btn">Read More<i className="fas fa-arrow-right" style={{paddingLeft:"5px"}}></i></button>
                     </div>
                 </div>
             </div>

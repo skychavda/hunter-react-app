@@ -1,8 +1,10 @@
-import React from 'react';
-import './client.css';
+import React, {Component} from 'react';
 import Slider from 'react-slick';
+import './client.css';
+import men from "../../men.jpg";
+import signature from "../../signature.png";
 
-class ClientReview extends React.Component{
+class ClientReview extends Component{
     render(){
         const setting = {
             dots: true,
@@ -40,15 +42,15 @@ class ClientReview extends React.Component{
         return(
             <div className="client-review-wrapper text-center">
                 <div className="master-padding">
-                    <h3>What our client says</h3>
+                    <h3 className="capitalize">What our client says</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div className="client-slider master-padding" style={{overflow: "hidden",paddingLeft:"8px"}}>
                     <Slider {...setting}>
                         <div className="row display">
                             <div className="col-md-4">
-                                <img className="client-circle-img" src={require("../../men.jpg")}/>
-                                <img src={require("../../signature.png")} style={{width:"70px", margin:"1px auto"}}/>
+                                <img className="client-circle-img" alt="client" src={men} />
+                                <img src={signature} alt="client-signature" style={{width:"70px", margin:"1px auto"}}/>
                             </div>
                             <div className="col-md-8 text-style">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro culpa deserunt veniam doloribus itaque praesentium</p>
@@ -61,8 +63,8 @@ class ClientReview extends React.Component{
                         </div>
                         <div className="row display">
                             <div className="col-md-4">
-                                <img className="client-circle-img" src={require("../../men.jpg")}/>
-                                <img src={require("../../signature.png")} style={{width:"70px", margin:"1px auto"}}/>
+                                <img className="client-circle-img" alt="client" src={men} />
+                                <img src={signature} alt="client-signature" style={{width:"70px", margin:"1px auto"}}/>
                             </div>
                             <div className="col-md-8 text-style">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro culpa deserunt veniam doloribus itaque praesentium</p>
@@ -75,8 +77,8 @@ class ClientReview extends React.Component{
                         </div>
                         <div className="row display">
                             <div className="col-md-4">
-                                <img className="client-circle-img" src={require("../../men.jpg")}/>
-                                <img src={require("../../signature.png")} style={{width:"70px", margin:"1px auto"}}/>
+                                <img className="client-circle-img" alt="client" src={men} />
+                                <img src={signature} alt="client-signature" style={{width:"70px", margin:"1px auto"}}/>
                             </div>
                             <div className="col-md-8 text-style">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro culpa deserunt veniam doloribus itaque praesentium</p>
@@ -89,8 +91,8 @@ class ClientReview extends React.Component{
                         </div>
                         <div className="row display">
                             <div className="col-md-4">
-                                <img className="client-circle-img" src={require("../../men.jpg")}/>
-                                <img src={require("../../signature.png")} style={{width:"70px", margin:"1px auto"}}/>
+                                <img className="client-circle-img" alt="client" src={men} />
+                                <img src={signature} alt="client-signature" style={{width:"70px", margin:"1px auto"}}/>
                             </div>
                             <div className="col-md-8 text-style">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro culpa deserunt veniam doloribus itaque praesentium</p>
@@ -103,8 +105,8 @@ class ClientReview extends React.Component{
                         </div>
                         <div className="row display">
                             <div className="col-md-4">
-                                <img className="client-circle-img" src={require("../../men.jpg")}/>
-                                <img src={require("../../signature.png")} style={{width:"70px", margin:"1px auto"}}/>
+                                <img className="client-circle-img" alt="client" src={men} />
+                                <img src={signature} alt="client-signature" style={{width:"70px", margin:"1px auto"}}/>
                             </div>
                             <div className="col-md-8 text-style">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro culpa deserunt veniam doloribus itaque praesentium</p>
@@ -117,8 +119,8 @@ class ClientReview extends React.Component{
                         </div>
                         <div className="row display">
                             <div className="col-md-4">
-                                <img className="client-circle-img" src={require("../../men.jpg")}/>
-                                <img src={require("../../signature.png")} style={{width:"70px", margin:"1px auto"}}/>
+                                <img className="client-circle-img" alt="client" src={men} />
+                                <img src={signature} alt="client-signature" style={{width:"70px", margin:"1px auto"}}/>
                             </div>
                             <div className="col-md-8 text-style">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro culpa deserunt veniam doloribus itaque praesentium</p>

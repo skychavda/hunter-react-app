@@ -4,3 +4,11 @@
 .card {box-shadow: 0 10px 20px -2px #aaa; border: none!important;}
 .news-margin-botttom {margin-bottom: 20px;}
 .card-height {height: 100%;}
+
+.read-more-btn:focus{
+    outline: none!important;
+}
+.read-more-btn:hover{
+    cursor: pointer;
+    color:#aaa;
+}

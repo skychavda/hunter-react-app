@@ -4,17 +4,20 @@ import FirstServices from './FirstServices';
 import SecondServices from './SecondServices';
 
 class Services extends React.Component{
-    state ={
-        firstServices: [
-            {icon: "fab fa-html5", name: "web-design", content:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error nisi ipsum, alias voluptatum blanditiis earum repellat praesentium"},
-            {icon: "fas fa-code", name: "web-development", content:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error nisi ipsum, alias voluptatum blanditiis earum repellat praesentium"},
-            {icon: "fas fa-bullhorn", name: "digital marketing", content:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error nisi ipsum, alias voluptatum blanditiis earum repellat praesentium"} 
-        ],
-        secondServices: [
-            {icon: "fas fa-cloud-download-alt", name: "web-hosting", content:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error nisi ipsum, alias voluptatum blanditiis earum repellat praesentium"},
-            {icon: "fas fa-headphones", name: "online support", content:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error nisi ipsum, alias voluptatum blanditiis earum repellat praesentium"},
-            {icon: "fas fa-bug", name: "fix server error", content:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error nisi ipsum, alias voluptatum blanditiis earum repellat praesentium"} 
-        ]
+    constructor(props){
+        super(props);
+        this.state ={
+            firstServices: [
+                {icon: "fab fa-html5", name: "web-design", content:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error nisi ipsum, alias voluptatum blanditiis earum repellat praesentium"},
+                {icon: "fas fa-code", name: "web-development", content:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error nisi ipsum, alias voluptatum blanditiis earum repellat praesentium"},
+                {icon: "fas fa-bullhorn", name: "digital marketing", content:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error nisi ipsum, alias voluptatum blanditiis earum repellat praesentium"} 
+            ],
+            secondServices: [
+                {icon: "fas fa-cloud-download-alt", name: "web-hosting", content:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error nisi ipsum, alias voluptatum blanditiis earum repellat praesentium"},
+                {icon: "fas fa-headphones", name: "online support", content:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error nisi ipsum, alias voluptatum blanditiis earum repellat praesentium"},
+                {icon: "fas fa-bug", name: "fix server error", content:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error nisi ipsum, alias voluptatum blanditiis earum repellat praesentium"} 
+            ]
+        }
     }
     render(){
         const firstRow = [];

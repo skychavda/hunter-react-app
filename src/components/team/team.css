@@ -1,6 +1,6 @@
 .team-wrapper {padding-top:2.5rem;}
-.circle-img {border-radius: 50%; width: 100px; height: 100px;border: 3px solid #aaaaaa73;}
-.person-border {border:2px solid #aaaaaa73; padding: 2% 0; margin:5px 0.5% 0 0.5%;}
+.circle-img {border-radius: 50%; width: 100px; height: 100px;border: 3px solid rgba(170,170,170,0.45);}
+.person-border {border:2px solid rgba(170,170,170,0.45); padding: 2% 0; margin:5px 0.5% 0 0.5%;}
 .person-name {margin-top:15px;margin-bottom:0; text-transform:uppercase}
 .person-designation {text-transform: uppercase;font-size: 13px;}
 

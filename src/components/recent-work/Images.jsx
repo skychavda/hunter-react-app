@@ -25,7 +25,7 @@ class Gallery extends React.Component{
         let className = "col-md-4 col-12 join fedIn";
         return(
             <div className={className}>
-                <img src={GalleryImage} className="img-fluid"/>
+                <img src={GalleryImage} className="img-fluid" alt="gallery images"/>
             </div>
         );
     }
