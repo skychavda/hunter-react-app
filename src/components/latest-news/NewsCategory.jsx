@@ -6,7 +6,7 @@ class NewsCategory extends React.Component{
         return(
             <div className="col-md-4 news-margin-botttom">
                 <div className="card">
-                    <img className="card-img-top" src={news.image} />
+                    <img className="card-img-top" src={news.image} style={{height:"100%"}} />
                     <div className="card-body">
                         <h5 className="card-title">{news.title}</h5>
                         <p className="card-text">{news.disc}</p>
