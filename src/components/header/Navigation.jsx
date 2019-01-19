@@ -4,7 +4,7 @@ class Navigation extends React.Component{
     constructor(){
         super();
         this.state = {
-            selected:'home',
+            selected: window.location.href.split('#')[1],
             scrollclass: 'sticky-nav-blur',
             color: 'rgba(82, 86, 89, 0.7)'
         };
