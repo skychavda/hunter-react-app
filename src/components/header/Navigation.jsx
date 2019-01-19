@@ -3,10 +3,26 @@ import React from 'react';
 class Navigation extends React.Component{
     constructor(){
         super();
-        this.state = {selected:'home'};
+        this.state = {
+            selected:'home',
+            scrollclass: 'sticky-nav-blur',
+            color: 'rgba(82, 86, 89, 0.7)'
+        };
         this.handleChange = this.handleChange.bind(this);
     }
+
+    listenScrollEvent = e => {
+        if (window.scrollY > 400) {
+          this.setState({scrollclass: 'sticky-nav'})
+        } else {
+          this.setState({scrollclass: 'sticky-nav-blur'})
+        }
+      }
     
+    componentDidMount() {
+    window.addEventListener('scroll', this.listenScrollEvent)
+    }
+
     handleChange(e,name){
         this.setState({selected: name});
         // e.preventDefault();
@@ -16,7 +32,7 @@ class Navigation extends React.Component{
     render(){
         let selected = this.state.selected;
         return(
-            <div className="navbar sticky-top navbar-expand-lg custome-toggler navbar-light navigation-wrapper master-padding">
+            <div className={"navbar navbar-expand-lg custome-toggler navbar-light navigation-wrapper master-padding "+this.state.scrollclass}>
                 <a className="navbar-brand"><h2 style={{marginBottom: 0, color:"#58f579",fontWeight:"bolder"}}>H<span style={{fontSize:"20px",color:"#fff",fontWeight:100}}>hunter</span></h2></a>
                 <button className="navbar-toggler " type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation" style={{borderColor:"#117c1e"}}>
                     <i className="fas fa-bars"></i>
@@ -47,6 +63,7 @@ class Navigation extends React.Component{
                     </ul>
                 </div>
             </div>
+            
         );
     }
 }

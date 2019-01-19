@@ -22,3 +22,7 @@ code {
 .capitalize{
   text-transform: uppercase;
 }
+.sub-text{
+  color: #a7a7a7;
+  text-transform: capitalize;
+}

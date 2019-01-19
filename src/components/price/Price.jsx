@@ -64,20 +64,20 @@ class Price extends React.Component{
             <div className="price-wrapper">
                 <div className="master-padding text-center price-list">
                     <h3 className="capitalize">Service price</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p className="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div className="row">
                         {pricelist}
                     </div>
                 </div>
                 <div className="master-padding client-slider" style={{marginLeft:"6px"}}>
                     <Slider {...setting}>
-                        <div className="client-border"><img className="img-fluid img" alt="services" src={service1}/></div>
+                        <div className="client-border"><img className="img-fluid img" alt="services" src={service3}/></div>
                         <div className="client-border"><img className="img-fluid img" alt="services" src={service2}/></div>
                         <div className="client-border"><img className="img-fluid img" alt="services" src={service3}/></div>
                         <div className="client-border"><img className="img-fluid img" alt="services" src={service4}/></div>
-                        <div className="client-border"><img className="img-fluid img" alt="services" src={service5}/></div>
-                        <div className="client-border"><img className="img-fluid img" alt="services" src={service1}/></div>
                         <div className="client-border"><img className="img-fluid img" alt="services" src={service2}/></div>
+                        <div className="client-border"><img className="img-fluid img" alt="services" src={service3}/></div>
+                        <div className="client-border"><img className="img-fluid img" alt="services" src={service4}/></div>
                         <div className="client-border"><img className="img-fluid img" alt="services" src={service3}/></div>
                     </Slider>
                 </div>

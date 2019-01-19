@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Contact extends React.Component{
+class ContactUs extends React.Component{
     render(){
         return(
             <div className="contact-wrapper">
@@ -30,4 +30,4 @@ class Contact extends React.Component{
     }
 }
 
-export default Contact;
+export default ContactUs;

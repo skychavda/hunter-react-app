@@ -7,7 +7,7 @@ class Contact extends React.Component{
             <div className="contactUs-wrapper" id="contact">
                 <div className="master-padding text-center">
                     <h3 className="capitalize">Contact Us</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p className="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div className="row">
                         <div className="col-md-6 contact-form">
                             <form>
@@ -19,7 +19,7 @@ class Contact extends React.Component{
                                     <div className="col input-col"><input type="text" placeholder="Enter Phone" className="form-input"/></div>
                                     <div className="col input-col"><input type="text" placeholder="Interest of service" className="form-input"/></div>
                                 </div>
-                                <div className="row" style={{marginTop:"10px"}}>
+                                <div className="row" style={{marginTop:"10px",marginBottom:"10px"}}>
                                     <div className="col input-col"><textarea type="text" placeholder="Leave your message" className="form-textarea"/></div>
                                 </div>
                                 <button type="button" className="form-button">submit</button>

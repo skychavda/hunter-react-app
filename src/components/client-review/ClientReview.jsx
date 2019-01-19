@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Slider from 'react-slick';
 import './client.css';
-import men from "../../men.jpg";
+import men from "../../men-min.jpg";
 import signature from "../../signature.png";
 
 class ClientReview extends Component{
@@ -13,7 +13,7 @@ class ClientReview extends Component{
             slidesToShow: 2,
             slidesToScroll: 2,
             arrows: false,
-            autoplay: true,
+            // autoplay: true,
             responsive: [
                 {
                   breakpoint: 1024,
@@ -40,10 +40,10 @@ class ClientReview extends Component{
             ]
         };
         return(
-            <div className="client-review-wrapper text-center">
+            <div className="client-review-wrapper text-center" id="testimonial">
                 <div className="master-padding">
                     <h3 className="capitalize">What our client says</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p className="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div className="client-slider master-padding" style={{overflow: "hidden",paddingLeft:"8px"}}>
                     <Slider {...setting}>
@@ -54,11 +54,13 @@ class ClientReview extends Component{
                             </div>
                             <div className="col-md-8 text-style">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro culpa deserunt veniam doloribus itaque praesentium</p>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
+                                <div className="icon-star">
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                </div>
                             </div>
                         </div>
                         <div className="row display">
@@ -68,11 +70,13 @@ class ClientReview extends Component{
                             </div>
                             <div className="col-md-8 text-style">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro culpa deserunt veniam doloribus itaque praesentium</p>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
+                                <div>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                </div>
                             </div>
                         </div>
                         <div className="row display">
@@ -82,11 +86,13 @@ class ClientReview extends Component{
                             </div>
                             <div className="col-md-8 text-style">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro culpa deserunt veniam doloribus itaque praesentium</p>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
+                                <div>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                </div>
                             </div>
                         </div>
                         <div className="row display">
@@ -96,11 +102,13 @@ class ClientReview extends Component{
                             </div>
                             <div className="col-md-8 text-style">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro culpa deserunt veniam doloribus itaque praesentium</p>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
+                                <div>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                </div>
                             </div>
                         </div>
                         <div className="row display">
@@ -110,11 +118,13 @@ class ClientReview extends Component{
                             </div>
                             <div className="col-md-8 text-style">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro culpa deserunt veniam doloribus itaque praesentium</p>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
+                                <div>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                </div>
                             </div>
                         </div>
                         <div className="row display">
@@ -124,11 +134,13 @@ class ClientReview extends Component{
                             </div>
                             <div className="col-md-8 text-style">
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro culpa deserunt veniam doloribus itaque praesentium</p>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
-                                <i className="fas fa-star icon-star-color"></i>
+                                <div>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                    <i className="fas fa-star icon-star-color"></i>
+                                </div>
                             </div>
                         </div>
                     </Slider>

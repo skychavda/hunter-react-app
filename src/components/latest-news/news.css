@@ -1,9 +1,9 @@
-.latest-news-wrapper {padding-top: 2.5rem;padding-bottom: 2.5rem}
+.latest-news-wrapper {padding-top: 2.5rem;padding-bottom: 2.5rem;background-color: #fff;}
 .read-more-btn {border:0;outline: 0;background: transparent;font-size: 13px;padding-right: 1.25rem;padding-bottom: 1.25rem;}
 .card-body {font-size: 11px;}
 .card {box-shadow: 0 10px 20px -2px #aaa; border: none!important;}
 .news-margin-botttom {margin-bottom: 20px;}
-.card-height {height: 100%;}
+.card-height {height: 100%!important;}
 
 .read-more-btn:focus{
     outline: none!important;
@@ -11,4 +11,16 @@
 .read-more-btn:hover{
     cursor: pointer;
     color:#aaa;
+}
+.card-img-top{
+    position: relative;
+}
+.top-right-date{
+    background-color: #38f538;
+    position: absolute;
+    top: 0;
+    width: 50px;
+    text-align: center;
+    color: white;
+    border-top-left-radius: calc(0.25rem - 1px);
 }

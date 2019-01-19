@@ -33,7 +33,7 @@
     }
 } */
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .master-padding{
         padding-left: 12%!important;
         padding-right: 12%!important;
@@ -43,7 +43,7 @@
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {  
+@media (min-width: 481px) and (max-width: 767px) {  
     .quote-text{
         float: none!important;
         text-align: center;
@@ -71,6 +71,9 @@
     .footer-div-center{
         justify-content: center!important;
         margin-top: 10px;
+    }
+    .icon-star{
+        text-align: center;
     }
 }
 
@@ -104,5 +107,8 @@
     }
     .contact-wrapper{
         display: none;
+    }
+    .icon-star{
+        text-align: center;
     }
 }

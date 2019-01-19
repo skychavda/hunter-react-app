@@ -1,17 +1,20 @@
 import React from 'react';
 import './team.css';
-import Men from '../../men.jpg';
-import Women from '../../women.jpeg';
+import Men from '../../men-min.jpg';
+import Women from '../../women-min.jpg';
 import Person from './Members';
 
 class Team extends React.Component{
-    state = {
-        teamMembers: [
-            {photo:Men,name: "shisir irman",designation: "ceo"},
-            {photo:Women,name: "sadia afrin",designation: "designer"},
-            {photo:Men,name: "john doe",designation: "developer"},
-            {photo:Women,name: "afrin sadia",designation: "designer"}
-        ]
+    constructor(props){
+        super(props);
+        this.state = {
+            teamMembers: [
+                {photo:Men,name: "shisir irman",designation: "ceo"},
+                {photo:Women,name: "sadia afrin",designation: "designer"},
+                {photo:Men,name: "john doe",designation: "developer"},
+                {photo:Women,name: "afrin sadia",designation: "designer"}
+            ]
+        }
     }
     render(){
         const rows = [];
@@ -24,7 +27,7 @@ class Team extends React.Component{
             <div className="team-wrapper" id="team">
                 <div className="master-padding text-center">
                     <h3 className="capitalize">Team member</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <p className="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div className="row">
                         {rows}
                     </div>
