@@ -1,4 +1,4 @@
-.price-wrapper {padding-top: 2.5rem;padding-bottom: 2.5rem;background-color: #fff;}
+.price-wrapper {background-color: #fff;}
 @media (min-width:768px){
     .price-category{
         max-width: 23%!important;
@@ -18,7 +18,7 @@
 .price-btn {outline: none;background: transparent;border:1px solid #3e3939;color:white;font-size: 14px;padding:5px 20px;border-radius: 20px;box-shadow: 0px 0px 6px #000;margin-bottom:.5rem;}
 .price-btn:hover {cursor: pointer}
 .price-btn:focus {outline: none; color:#11c711;background-color: #4c4c4c;}
-.price-list {background-color: #eee;padding-top:2.5rem;padding-bottom: 2.5rem;}
+.price-list {background-color: #eee;padding-top:4.5rem;padding-bottom: 4.5rem;}
 .client-slider {padding: 2.4rem 0;overflow: hidden;margin:0 auto;}
 .client-border {border: 1px solid #ddd; padding: 5px;color:#ddd;width: 90%!important;}
 .img {width: 100%;height: 127px!important;filter: contrast(0%)}

@@ -111,4 +111,7 @@
     .icon-star{
         text-align: center;
     }
+    .sticky-nav-blur{
+        top:0px!important;
+    }
 }

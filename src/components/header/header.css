@@ -31,17 +31,18 @@
 
 .sticky-nav-blur{
     /* position: fixed!important; */
-    position:sticky!important;
+    position:fixed!important;
     width: 100%;
-    top:0px;
+    top:29px;
     z-index:10;
     background-color:rgba(82, 86, 89, 0.7)!important;
 }
 
 .sticky-nav{
-    position:sticky!important;
+    position:fixed!important;
     top:0px;
     z-index:10;
+    width: 100%;
     background-color:rgb(82, 86, 89)!important;
 }
 

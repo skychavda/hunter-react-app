@@ -2,6 +2,17 @@ import React from 'react';
 import './footer.css';
 
 class Footer extends React.Component{
+    constructor(props){
+        super(props);
+        this.state = {
+            selected: window.location.href.split('#')[1]
+        }
+    }
+
+    handleChange(e,name){
+        this.setState({selected:name});
+    }
+    // onFooterClickChange={(e)=>this.handleChange(e,"home")}
     render(){
         return(
             <footer className="footer-wrapper" id="footer">

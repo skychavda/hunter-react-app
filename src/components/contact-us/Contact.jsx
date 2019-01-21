@@ -5,7 +5,7 @@ class Contact extends React.Component{
     render(){
         return(
             <div className="contactUs-wrapper" id="contact">
-                <div className="master-padding text-center">
+                <div className="master-padding text-center contact-padding">
                     <h3 className="capitalize">Contact Us</h3>
                     <p className="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <div className="row">

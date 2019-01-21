@@ -2,11 +2,11 @@ import React from 'react';
 import './price.css';
 import PriceList from './PriceList';
 import Slider from 'react-slick';
-import service1 from '../../service1.png';
+// import service1 from '../../service1.png';
 import service2 from '../../service2.png';
 import service3 from '../../service3.png';
 import service4 from '../../service4.png';
-import service5 from '../../service5.png';
+// import service5 from '../../service5.png';
 
 class Price extends React.Component{
     constructor(props){
