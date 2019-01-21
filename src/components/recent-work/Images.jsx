@@ -1,13 +1,13 @@
 import React from 'react';
-import Gallery1 from '../../gallery1.jpeg';
-import Gallery2 from '../../gallery2.jpeg';
-import Gallery3 from '../../gallery3.jpeg';
-import Gallery4 from '../../gallery4.jpeg';
-import Gallery5 from '../../gallery5.jpeg';
-import Gallery6 from '../../gallery6.jpeg';
-import Gallery7 from '../../gallery7.jpeg';
-import Gallery8 from '../../gallery8.jpeg';
-import Gallery9 from '../../gallery9.jpeg';
+import Gallery1 from '../../gallery1-min.jpg';
+import Gallery2 from '../../gallery2-min.jpg';
+import Gallery3 from '../../gallery3-min.jpg';
+import Gallery4 from '../../gallery4-min.jpg';
+import Gallery5 from '../../gallery5-min.jpg';
+import Gallery6 from '../../gallery6-min.jpg';
+import Gallery7 from '../../gallery7-min.jpg';
+import Gallery8 from '../../gallery8-min.jpg';
+import Gallery9 from '../../gallery9-min.jpg';
 
 class Gallery extends React.Component{
     render(){

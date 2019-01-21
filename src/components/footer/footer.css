@@ -37,7 +37,9 @@ opacity: 1;
 .floating-icon-a{
     color:#117c1e;
     text-decoration: none;
-    padding: 9px 9px;
+    padding: 0px 15px;
+    position: absolute;
+    top: 8px;
 }
 .scroll:focus{
     outline: none;

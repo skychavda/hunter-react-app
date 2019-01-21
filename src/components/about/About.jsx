@@ -23,10 +23,6 @@ class About extends React.Component{
                                         <source src={video} type='video/mp4; codecs="avc1.42E01E"'/>
                                         your browser not support video
                                     </video>
-                                    {/* <iframe className="player" style={{width:"100%", height:"100%"}} src="https://www.youtube.com/embed/8Ic2L7ZyFC8?autoplay=1" frameborder="0"/> */}
-                                    {/* <video width="400" autoPlay controls style={{width:"100%", height:"100%"}}>
-                                        <source src={video} type="video/mp4" />
-                                    </video> */}
                                 </div>
                             </div>
                         </div>

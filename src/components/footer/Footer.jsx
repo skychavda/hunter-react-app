@@ -33,7 +33,7 @@ class Footer extends React.Component{
                     </div>
                 </div>
                 <div>
-                    <button className="scroll"><a href="#home" className="floating-icon-a"><i className="fas fa-angle-double-up" style={{transform: "rotate(-45deg)"}}></i></a></button>
+                    <div className="scroll"><a href="#home" className="floating-icon-a"><i className="fas fa-angle-double-up" style={{transform: "rotate(-45deg)"}}></i></a></div>
                 </div>
             </footer>
         );
