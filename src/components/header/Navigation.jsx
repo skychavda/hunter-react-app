@@ -23,7 +23,7 @@ class Navigation extends React.Component{
     }
 
     render(){
-        let selected = window.location.href.split('/')[4];
+        let selected = window.location.hash.split('/')[0];
         if(selected===""){
         return(
             <div className={"navbar navbar-expand-lg custome-toggler navbar-light navigation-wrapper master-padding "+this.state.scrollclass}>
