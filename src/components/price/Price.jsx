@@ -2,11 +2,13 @@ import React from 'react';
 import './price.css';
 import PriceList from './PriceList';
 import Slider from 'react-slick';
-// import service1 from '../../service1.png';
+import service1 from '../../service1.png';
 import service2 from '../../service2.png';
 import service3 from '../../service3.png';
 import service4 from '../../service4.png';
-// import service5 from '../../service5.png';
+import service5 from '../../service5.png';
+import service6 from '../../service6.png';
+import service7 from '../../service7.png';
 
 class Price extends React.Component{
     constructor(props){
@@ -71,13 +73,13 @@ class Price extends React.Component{
                 </div>
                 <div className="master-padding client-slider" style={{marginLeft:"6px"}}>
                     <Slider {...setting}>
-                        <div className="client-border"><img className="img-fluid img" alt="services" src={service3}/></div>
+                        <div className="client-border"><img className="img-fluid img" alt="services" src={service1}/></div>
                         <div className="client-border"><img className="img-fluid img" alt="services" src={service2}/></div>
                         <div className="client-border"><img className="img-fluid img" alt="services" src={service3}/></div>
                         <div className="client-border"><img className="img-fluid img" alt="services" src={service4}/></div>
-                        <div className="client-border"><img className="img-fluid img" alt="services" src={service2}/></div>
-                        <div className="client-border"><img className="img-fluid img" alt="services" src={service3}/></div>
-                        <div className="client-border"><img className="img-fluid img" alt="services" src={service4}/></div>
+                        <div className="client-border"><img className="img-fluid img" alt="services" src={service5}/></div>
+                        <div className="client-border"><img className="img-fluid img" alt="services" src={service6}/></div>
+                        <div className="client-border"><img className="img-fluid img" alt="services" src={service7}/></div>
                         <div className="client-border"><img className="img-fluid img" alt="services" src={service3}/></div>
                     </Slider>
                 </div>
