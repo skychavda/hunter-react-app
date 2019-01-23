@@ -147,7 +147,7 @@ class ClientReview extends Component{
                 </div>
                 <div className="video-wrapper text-center">
                     <div className="master-padding">
-                        <h4 style={{textTransform:"uppercase", color:"#fff"}}>watch our awsome <span style={{color:"#11c711"}}>video</span></h4>
+                        <h4 style={{textTransform:"uppercase", color:"#fff"}}>watch our awesome <span style={{color:"#11c711"}}>video</span></h4>
                         <i className="fas fa-play-circle video-icon"></i>
                     </div>
                 </div>

@@ -18,7 +18,7 @@ class About extends React.Component{
                         <div className="col-md-4 col-12 our-video">
                             <div className="embed-responsive embed-responsive-4by3" style={{backgroundColor: "#000000"}}>
                                 <div className="embed-responsive-item">
-                                    <video name="media" controls style={{width:"100%", height:"100%"}} muted loop>
+                                    <video name="media" controls style={{width:"100%", height:"100%"}} muted loop autoPlay>
                                         <source src="http://techslides.com/demos/sample-videos/small.ogv" type='video/ogg; codecs="theora"'/> 
                                         <source src={video} type='video/mp4; codecs="avc1.42E01E"'/>
                                         your browser not support video

@@ -44,6 +44,9 @@
 }
 
 @media (min-width: 481px) and (max-width: 767px) {  
+    .address{
+        margin-top: 10px;
+    }
     .quote-text{
         float: none!important;
         text-align: center;
@@ -78,6 +81,9 @@
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .address{
+        margin-top: 10px;
+    }
     .quote-text{
         text-align: center;
     }

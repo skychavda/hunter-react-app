@@ -88,7 +88,7 @@ class Price extends React.Component{
                         <div className="row">
                             <div className="col-md-6">
                                 <div className="float-left quote-text">
-                                    <h6 style={{textTransform: "uppercase", color:"#fff", textAlign: "left"}}>providing smart logistics solution acrross the world</h6>
+                                    <h6 style={{textTransform: "uppercase", color:"#fff", textAlign: "left"}}>providing smart logistics solution across the world</h6>
                                 </div>
                             </div>
                             <div className="col-md-6 text-center">

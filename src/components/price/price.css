@@ -21,7 +21,7 @@
 .price-list {background-color: #eee;padding-top:4.5rem;padding-bottom: 4.5rem;}
 .client-slider {padding: 2.4rem 0;overflow: hidden;margin:0 auto;}
 .client-border {border: 1px solid #ddd; padding: 5px;color:#ddd;width: 90%!important;}
-.img {width: 100%;height: 127px!important;filter: contrast(0%)}
+.img {width: 100%;height: 127px!important;filter: contrast(0%);opacity: 0.2;}
 .quote-wrapper {background-image: url("../../quote.jpg"); background-size: cover; padding:3% 0;}
 .margin-top {margin-top:-6px;}
 .quote-button-align {text-align: right};

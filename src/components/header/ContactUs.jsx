@@ -11,16 +11,16 @@ class ContactUs extends React.Component{
                     <div className="text-right" style={{color:"#fff",fontSize:"13px"}}>
                         <ul>
                             <li>
-                                <a href="" className="header-icon"><i className="fab fa-facebook-f"></i></a>
+                                <a href="JavaScript:void(0);" className="header-icon"><i className="fab fa-facebook-f"></i></a>
                             </li>
                             <li>
-                                <a href="" className="header-icon"><i className="fab fa-twitter"></i></a>
+                                <a href="JavaScript:void(0);" className="header-icon"><i className="fab fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="" className="header-icon"><i className="fab fa-pinterest-p"></i></a>
+                                <a href="JavaScript:void(0);" className="header-icon"><i className="fab fa-pinterest-p"></i></a>
                             </li>
                             <li>
-                                <a href="" className="header-icon"><i className="fab fa-linkedin-in"></i></a>
+                                <a href="JavaScript:void(0);" className="header-icon"><i className="fab fa-linkedin-in"></i></a>
                             </li>
                         </ul>
                     </div>

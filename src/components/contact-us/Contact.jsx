@@ -25,7 +25,7 @@ class Contact extends React.Component{
                                 <button type="button" className="form-button">submit</button>
                             </form>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6 address">
                             <p className="text-left border-bottom"><i className="fas fa-map-marker-alt icon-style"></i>4819 Concord Street Charlotte, NC 28209</p>
                             <p className="text-left border-bottom"><i className="fas fa-envelope icon-style"></i>example@gmail.com</p>
                             <p className="text-left border-bottom"><i className="fas fa-phone icon-style"></i>+99 9787 867589</p>

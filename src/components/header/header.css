@@ -26,7 +26,7 @@
     background-image: url(../../header-min.jpg);
     background-size: cover;
     /* filter: brightness(50%); */
-    box-shadow: inset 8px 8px 100rem black;
+    box-shadow: inset 8px 8px 500px black;
 }
 
 .sticky-nav-blur{
