@@ -1,4 +1,4 @@
-.counter-wrapper {padding: 2% 0; background-image: url(../../counter-min.jpg); background-size: cover;background-color: #fff;}
+.counter-wrapper {margin-top:4.5rem;padding: 2% 0; background-image: url(../../counter-min.jpg); background-size: cover;background-color: #fff;}
 .number-font {font-size: 30px; color: yellowgreen;}
 .title-font {color: white; font-weight: bold;}
 .timer{

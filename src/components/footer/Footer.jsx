@@ -1,5 +1,6 @@
 import React from 'react';
 import './footer.css';
+import { Link } from 'react-scroll';
 
 class Footer extends React.Component{
     constructor(props){
@@ -27,13 +28,20 @@ class Footer extends React.Component{
                         <div className="col-md-4 text-right flex footer-div-center" style={{justifyContent:"flex-end"}}>
                             <div className="icon-wrapper"><i className="fab fa-facebook-f icon-border"></i></div>
                             <div className="icon-wrapper"><i className="fab fa-twitter icon-border"></i></div>
-                            <div className="icon-wrapper"><i className="fab fa-pinterest-p icon-border"></i></div>
-                            <div className="icon-wrapper"><i className="fab fa-linkedin-in icon-border"></i></div>
+                            <div className="icon-wrapper"><i className="fab fa-pinterest icon-border"></i></div>
+                            <div className="icon-wrapper"><i className="fab fa-linkedin icon-border"></i></div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className="scroll"><a href="#home" className="floating-icon-a"><i className="fas fa-angle-double-up" style={{transform: "rotate(-45deg)"}}></i></a></div>
+                    <div className="scroll">
+                        <Link to="home" spy={true} smooth={true} duration={500} className="floating-icon-a">
+                            <i className="fas fa-angle-double-up" style={{transform: "rotate(-45deg)"}}></i>
+                        </Link>
+                        {/* <a href="#home" className="">
+                            
+                        </a> */}
+                    </div>
                 </div>
             </footer>
         );

@@ -11,7 +11,7 @@ class Person extends React.Component{
                 <div className="flex" style={{justifyContent:"center"}}>
                     <div className="icon-wrapper"><i className="fab fa-facebook-f icon-border"></i></div>
                     <div className="icon-wrapper"><i className="fab fa-twitter icon-border"></i></div>
-                    <div className="icon-wrapper"><i className="fab fa-pinterest-p icon-border"></i></div>
+                    <div className="icon-wrapper"><i className="fab fa-pinterest icon-border"></i></div>
                 </div>
             </div>
         );

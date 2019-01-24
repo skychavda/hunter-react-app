@@ -3,6 +3,8 @@ import './team.css';
 import Men from '../../men-min.jpg';
 import Women from '../../women-min.jpg';
 import Person from './Members';
+import CounterClient from '../counter/Counter';
+import RecentWork from '../recent-work/RecentWork';
 
 class Team extends React.Component{
     constructor(props){
@@ -32,6 +34,8 @@ class Team extends React.Component{
                         {rows}
                     </div>
                 </div>
+                <CounterClient/>
+                <RecentWork/>
             </div>
         );
     }

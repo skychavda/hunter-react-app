@@ -35,12 +35,18 @@
 opacity: 1;
 }
 .floating-icon-a{
-    color:#117c1e;
+    color:#117c1e!important;
     text-decoration: none;
     padding: 0px 15px;
     position: absolute;
     top: 8px;
 }
+
+.floating-icon-a:hover{
+    cursor: pointer;
+    color: #0ab71f!important;
+}
+
 .scroll:focus{
     outline: none;
 }

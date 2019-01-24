@@ -16,7 +16,7 @@
 .detail {text-align:left;padding:20px 15px;color:white;font-size: 13px;}
 .dashed-border-bottom {border-bottom: 1px dashed #11c711;padding-bottom: 8px;padding-top: 2px;margin-bottom: 0;}
 .price-btn {outline: none;background: transparent;border:1px solid #3e3939;color:white;font-size: 14px;padding:5px 20px;border-radius: 20px;box-shadow: 0px 0px 6px #000;margin-bottom:.5rem;}
-.price-btn:hover {cursor: pointer}
+.price-btn:hover {cursor: pointer;color:#11c711;background-color: #4c4c4c;}
 .price-btn:focus {outline: none; color:#11c711;background-color: #4c4c4c;}
 .price-list {background-color: #eee;padding-top:4.5rem;padding-bottom: 4.5rem;}
 .client-slider {padding: 2.4rem 0;overflow: hidden;margin:0 auto;}

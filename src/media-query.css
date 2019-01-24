@@ -10,7 +10,7 @@
 
 @media (max-width:1184px){
     .scroll{
-        bottom: 89px!important;
+        bottom: 79px!important;
         left: 93%!important
     }
 }
@@ -33,7 +33,17 @@
     }
 } */
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 957px) and (max-width: 1024px) {
+    .master-padding{
+        padding-left: 12%!important;
+        padding-right: 12%!important;
+    }
+    .scroll{
+        bottom: 69px!important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 956px) {
     .master-padding{
         padding-left: 12%!important;
         padding-right: 12%!important;

@@ -20,7 +20,7 @@ class Contact extends React.Component{
                                     <div className="col input-col"><input type="text" placeholder="Interest of service" className="form-input"/></div>
                                 </div>
                                 <div className="row" style={{marginTop:"10px",marginBottom:"10px"}}>
-                                    <div className="col input-col"><textarea type="text" placeholder="Leave your message" className="form-textarea"/></div>
+                                    <div className="col input-col"><textarea maxLength="100" col="10" type="text" placeholder="Leave your message" className="form-textarea" style={{resize:"none"}}/></div>
                                 </div>
                                 <button type="button" className="form-button">submit</button>
                             </form>
@@ -34,8 +34,8 @@ class Contact extends React.Component{
                             <div className="text-left flex"> 
                                 <div className="icon-wrapper"><i className="fab fa-facebook-f icon-border" style={{color:"#3a3737"}}></i></div>
                                 <div className="icon-wrapper"><i className="fab fa-twitter icon-border" style={{color:"#3a3737"}}></i></div>
-                                <div className="icon-wrapper"><i className="fab fa-pinterest-p icon-border" style={{color:"#3a3737"}}></i></div>
-                                <div className="icon-wrapper"><i className="fab fa-linkedin-in icon-border" style={{color:"#3a3737"}}></i></div>
+                                <div className="icon-wrapper"><i className="fab fa-pinterest icon-border" style={{color:"#3a3737"}}></i></div>
+                                <div className="icon-wrapper"><i className="fab fa-linkedin icon-border" style={{color:"#3a3737"}}></i></div>
                             </div>
                         </div>
                     </div>
