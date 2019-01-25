@@ -6,7 +6,9 @@ class Navigation extends React.Component {
         super();
         this.state = {
             scrollclass: 'sticky-nav-blur',
-            color: 'rgba(82, 86, 89, 0.7)'
+            color: 'rgba(82, 86, 89, 0.7)',
+            collapsed: "collapsed",
+            aria: false
         };
     }
 
@@ -17,10 +19,24 @@ class Navigation extends React.Component {
         } else {
             this.setState({ scrollclass: 'sticky-nav-blur' })
         }
+        if(this.state.collapsed==="collapsed"){
+            this.setState({collapsed:"",aria:!this.state.aria});
+       }else{
+            this.setState({collapsed:"collapsed",aria:!this.state.aria})
+       }
+    }
+
+    listenClickEvent = e => {
+       if(this.state.collapsed==="collapsed"){
+            this.setState({collapsed:"",aria:!this.state.aria});
+       }else{
+            this.setState({collapsed:"collapsed",aria:!this.state.aria})
+       }
     }
 
     componentDidMount() {
         window.addEventListener('scroll', this.listenScrollEvent)
+        window.addEventListener('click',this.listenClickEvent)
     }
 
     render() {
@@ -60,7 +76,7 @@ class Navigation extends React.Component {
                 <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="true" aria-label="Toggle navigation" style={{ borderColor: "#117c1e" }}>
                     <i className="fas fa-bars"></i>
                 </button>
-                <div className="navbar-collapse collapse justify-content-end" id="menu" {...toggle}>
+                <div className={"navbar-collapse collapse justify-content-end "+this.state.collapsed} id="menu" {...toggle} aria-expanded={this.state.aria}>
                     <ul className="navbar-nav">
                         {/* {home} */}
                         
