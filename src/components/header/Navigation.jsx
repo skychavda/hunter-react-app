@@ -19,24 +19,28 @@ class Navigation extends React.Component {
         } else {
             this.setState({ scrollclass: 'sticky-nav-blur' })
         }
-        if(this.state.collapsed==="collapsed"){
-            this.setState({collapsed:"",aria:!this.state.aria});
-       }else{
-            this.setState({collapsed:"collapsed",aria:!this.state.aria})
-       }
+        if (window.innerWidth < 992) {
+            if (this.state.aria === true) {
+                this.setState({ collapsed: " collapsed", aria: !this.state.aria });
+            } else {
+                this.setState({ collapsed: "", aria: !this.state.aria })
+            }
+        }
     }
 
     listenClickEvent = e => {
-       if(this.state.collapsed==="collapsed"){
-            this.setState({collapsed:"",aria:!this.state.aria});
-       }else{
-            this.setState({collapsed:"collapsed",aria:!this.state.aria})
-       }
+        if (window.innerWidth < 992) {
+            if (this.state.aria === true) {
+                this.setState({ collapsed: " collapsed", aria: !this.state.aria });
+            } else {
+                this.setState({ collapsed: "", aria: !this.state.aria })
+            }
+        }
     }
 
     componentDidMount() {
         window.addEventListener('scroll', this.listenScrollEvent)
-        window.addEventListener('click',this.listenClickEvent)
+        window.addEventListener('click', this.listenClickEvent)
     }
 
     render() {
@@ -62,12 +66,12 @@ class Navigation extends React.Component {
         //         </div>
         //     </li>
         // }
-        if(window.innerWidth<992){
+        if (window.innerWidth < 992) {
             toggle = {
-                "data-toggle":"collapse",
-                "data-target":"#menu"
+                "data-toggle": "collapse",
+                "data-target": "#menu"
             }
-        }else{
+        } else {
             toggle = "";
         }
         return (
@@ -76,10 +80,10 @@ class Navigation extends React.Component {
                 <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="true" aria-label="Toggle navigation" style={{ borderColor: "#117c1e" }}>
                     <i className="fas fa-bars"></i>
                 </button>
-                <div className={"navbar-collapse collapse justify-content-end "+this.state.collapsed} id="menu" {...toggle} aria-expanded={this.state.aria}>
+                <div className={"navbar-collapse collapse justify-content-end " + this.state.collapsed} id="menu" {...toggle} aria-expanded={this.state.aria}>
                     <ul className="navbar-nav">
                         {/* {home} */}
-                        
+
                         <li className="nav-item " >
                             {/* <div className="nav-link nav-btn" data-toggle="collapse" data-target="#menu"><a className={"header-a " + (selected === "" ? "header-active" : "")} href="#home">Home</a></div> */}
                             <div className="nav-link header-a" >

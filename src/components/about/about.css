@@ -13,3 +13,24 @@
 
 .story-btn  {padding: 0.33rem 1rem;outline:0;color:#fff;text-transform: uppercase;font-size: 13px;background: #000;border:1px solid #000;}
 .story-btn:hover {cursor:pointer;background: #fff;color:#000;transition: all .5s ease}
+
+.hunter-md-8, .hunter-md-4{
+    position: relative!important;
+    width: 100%!important;
+    min-height: 1px!important;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+}
+
+@media (min-width: 769px){
+    .hunter-md-4{
+        -ms-flex: 0 0 33.333333%!important;
+        flex: 0 0 33.333333%!important;
+        max-width: 33.333333%!important;
+    }   
+    .hunter-md-8{
+        -ms-flex: 0 0 66.333337%!important;
+        flex: 0 0 66.333337%!important;
+        max-width: 66.333337%!important;
+    }
+}
