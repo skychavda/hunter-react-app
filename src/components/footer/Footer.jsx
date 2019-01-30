@@ -35,7 +35,7 @@ class Footer extends React.Component{
                 </div>
                 <div>
                     <div className="scroll">
-                        <Link to="home" spy={true} smooth={true} duration={500} className="floating-icon-a">
+                        <Link to="home" spy={true} smooth={true} duration={100} className="floating-icon-a">
                             <i className="fas fa-angle-double-up" style={{transform: "rotate(-45deg)"}}></i>
                         </Link>
                         {/* <a href="#home" className="">

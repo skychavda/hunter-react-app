@@ -46,6 +46,9 @@
     background-color:rgb(82, 86, 89)!important;
 }
 
+.collapsing
+{position:relative!important;height:0!important;overflow:hidden!important;transition:height .35s ease!important}
+
 .text-left{
     text-align: left;
 }
