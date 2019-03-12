@@ -23,7 +23,7 @@ class Footer extends React.Component{
                             <h2 style={{marginBottom: 0, color:"#58f579",fontWeight:"bolder"}}>H<span style={{fontSize:"20px",color:"#fff",fontWeight:100}}>hunter</span></h2>
                         </div>
                         <div className="col-md-4 text-center flex footer-div-center">
-                            <p style={{margin: "auto",color:"#afafaf9c"}}>&copy;2019 Allright Reserve <span style={{color:"#40af57"}}>WebCube Technologies</span></p>
+                            <p style={{margin: "auto",color:"#afafaf9c"}}>&copy;2019 Allright Reserve <span style={{color:"#40af57"}}>Hunter Agency</span> <br/> Designed by WebCube Technologies</p>
                         </div>
                         <div className="col-md-4 text-right flex footer-div-center" style={{justifyContent:"flex-end"}}>
                             <div className="icon-wrapper"><i className="fab fa-facebook-f icon-border"></i></div>
