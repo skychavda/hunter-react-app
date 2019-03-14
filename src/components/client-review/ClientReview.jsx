@@ -60,9 +60,6 @@ class ClientReview extends Component {
                 }
             ]
         };
-        
-        console.log(this.state.sliderAutoplay);
-        console.log(setting)
         return (
             <div className="client-review-wrapper text-center" id="testimonial">
                 <div className="master-padding">
