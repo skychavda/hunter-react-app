@@ -4,13 +4,13 @@
         padding-right: 20%!important;
     }
     .scroll{
-        bottom: 68px!important;
+        bottom: 79px!important;
     }
 }
 
 @media (max-width:1184px){
     .scroll{
-        bottom: 79px!important;
+        bottom: 126px!important;
         left: 93%!important
     }
 }
@@ -29,7 +29,19 @@
 
 @media (max-width:767px){
     .scroll{
-        bottom: 143px!important
+        bottom: 167px!important
+    }
+}
+
+@media (max-width:376px){
+    .scroll{
+        bottom: 191px!important
+    }
+}
+
+@media (max-width:320px){
+    .scroll{
+        bottom: 216px!important
     }
 }
 
@@ -45,7 +57,7 @@
         padding-right: 12%!important;
     }
     .scroll{
-        bottom: 69px!important;
+        bottom: 126px!important;
     }
 }
 
@@ -55,7 +67,7 @@
         padding-right: 12%!important;
     }
     .scroll{
-        bottom: 78px!important;
+        bottom: 126px!important;
     }
 }
 
